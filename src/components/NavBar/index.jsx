@@ -1,4 +1,6 @@
+import CarWidget from '../CartWidget/index';
 import React from 'react';
+
 
 export const NavBar = () => {
     return ( 
@@ -13,10 +15,13 @@ export const NavBar = () => {
                         <a className= "nav_link" href="#">Zapatillas</a>
                     </li>
                     <li>
-                        <a className= "nav_link" href="#">Camisetas</a>
+                        <a className= "nav_link" href="#">Camisetas de futbol</a>
                     </li>
                     <li>
-                        <a className= "nav_link" href="#">carrito</a>
+                        <a className= "nav_link" href="#">Ofertas</a>
+                    </li>
+                    <li>
+                        <a className= "nav_link" href="#"><CarWidget /></a>
                     </li>
                 </ul>
 
